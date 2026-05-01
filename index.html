@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LOP Solutions | Soporte IT & Infraestructura para empresas, comercios y hogares</title>
+    <meta name="description"
+        content="Soporte tecnico IT, administracion de redes, Office 365, Active Directory y mantenimiento informatico para empresas, comercios, profesionales y hogares. Atencion directa y personalizada.">
+    <meta name="keywords"
+        content="soporte IT, soporte tecnico, soporte tecnico empresas, soporte tecnico hogar, Office 365, redes, mantenimiento informatico, soporte computadoras, IT a domicilio, soporte L2 L3">
+    <meta name="author" content="LOP Solutions">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="LOP Solutions | Soporte IT & Infraestructura">
+    <meta property="og:description"
+        content="Soporte IT y mantenimiento informatico para empresas, comercios, profesionales y hogares. Atencion directa.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_AR">
+
+    <!-- Bootstrap 5 (CDN, archivo separado) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Estilos custom (archivo separado) -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+    <link rel="apple-touch-icon" href="assets/img/logo.svg">
+</head>
+
+<body>
+
+    <!-- ============== NAVBAR ============== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#hero">
+                <img src="assets/img/logo.svg" alt="LOP Solutions" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios IT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#desarrollo-web">Desarrollo Web</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#diferencial">Por que LOP</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-cta" href="#contacto">Auditoria gratis</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============== HERO ============== -->
+    <header id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-inner text-center">
+                <span class="badge-pill mb-4">
+                    <i class="bi bi-shield-check"></i> Soporte IT profesional, atencion directa
+                </span>
+
+                <img src="assets/img/logo.svg" alt="LOP Solutions" class="hero-logo">
+
+                <h1 class="hero-title">
+                    Tu infraestructura IT funcionando,<br>
+                    <span class="text-accent">para que vos te dediques al negocio.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Brindamos soporte tecnico, mantenimiento informatico, administracion de redes, Office 365 y mas.
+                    Trabajamos con empresas, comercios, profesionales y hogares. Atencion directa, sin pasamanos, con
+                    experiencia real.
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#contacto" class="btn btn-cta btn-lg">
+                        <i class="bi bi-search-heart"></i> Auditoria IT gratuita
+                    </a>
+                    <a href="#servicios" class="btn btn-soft btn-lg">
+                        Ver servicios
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">+5</div>
+                        <div class="stat-label">Anos en soporte L2/L3</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <div class="stat-number">+150</div>
+                        <div class="stat-label">Usuarios gestionados</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <div class="stat-number">1:1</div>
+                        <div class="stat-label">Atencion directa, sin pasamanos</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Trabajo en espanol</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============== PARA QUIEN ============== -->
+    <section class="section-pain" id="para-quien">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Si esto te suena, somos para vos</h2>
+                <p class="section-subtitle">Empresas, comercios, profesionales y hogares que necesitan que la tecnologia
+                    funcione, sin vueltas ni excusas.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="pain-card">
+                        <i class="bi bi-exclamation-octagon-fill pain-icon"></i>
+                        <h5>"Cada problema IT nos frena el negocio"</h5>
+                        <p>Mails caidos, impresoras que no andan, accesos que no funcionan. Cada incidencia te cuesta
+                            horas-persona y plata.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pain-card">
+                        <i class="bi bi-person-x-fill pain-icon"></i>
+                        <h5>"Dependemos del que mas o menos sabe"</h5>
+                        <p>Tu IT lo resuelve un empleado por buena voluntad o un freelance que aparece cuando puede. No
+                            es sostenible.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pain-card">
+                        <i class="bi bi-graph-down pain-icon"></i>
+                        <h5>"Una consultora grande nos cobra fortunas"</h5>
+                        <p>Pagas mucho por horas que no usas, te tratan como cliente chico y nunca conocen tu
+                            infraestructura real.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== SERVICIOS ============== -->
+    <section class="section-services" id="servicios">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-eyebrow">Nuestros servicios</span>
+                <h2 class="section-title">Planes de soporte IT mensual</h2>
+                <p class="section-subtitle">Tres planes claros, pensados para empresas y comercios. Sin sorpresas.
+                    Cancelas cuando quieras tras los primeros 3 meses.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Essential -->
+                <div class="col-lg-4">
+                    <div class="service-card">
+                        <div class="service-tier">LOP Essential</div>
+                        <p class="service-target"><i class="bi bi-people"></i> Hasta 10 usuarios</p>
+                        <p class="service-pitch">Ideal para comercios, profesionales independientes y hogares que
+                            necesitan soporte tecnologico confiable y a la mano.</p>
+                        <ul class="service-list">
+                            <li><i class="bi bi-check2"></i> Soporte tecnico remoto + visitas coordinadas</li>
+                            <li><i class="bi bi-check2"></i> Resolucion de incidencias en Office 365 y Google Workspace
+                            </li>
+                            <li><i class="bi bi-check2"></i> Alta, baja y modificacion de usuarios</li>
+                            <li><i class="bi bi-check2"></i> Configuracion de impresoras y perifericos</li>
+                            <li><i class="bi bi-check2"></i> Mantenimiento preventivo de equipos</li>
+                            <li><i class="bi bi-check2"></i> Antivirus y copias de seguridad basicas</li>
+                            <li><i class="bi bi-check2"></i> Tickets ilimitados</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline-primary w-100">Solicitar propuesta</a>
+                    </div>
+                </div>
+
+                <!-- Business (destacado) -->
+                <div class="col-lg-4">
+                    <div class="service-card service-card--featured">
+                        <span class="featured-badge">Mas elegido</span>
+                        <div class="service-tier">LOP Business</div>
+                        <p class="service-target"><i class="bi bi-people"></i> Hasta 25 usuarios</p>
+                        <p class="service-pitch">Para comercios, oficinas y operaciones que ya superaron al "vecino que
+                            sabe de PCs" y necesitan respuesta profesional.</p>
+                        <ul class="service-list">
+                            <li><i class="bi bi-check2"></i> Todo lo del plan Essential</li>
+                            <li><i class="bi bi-check2"></i> Soporte tecnico + 1 visita presencial mensual</li>
+                            <li><i class="bi bi-check2"></i> Migracion y clonacion de equipos</li>
+                            <li><i class="bi bi-check2"></i> Configuracion de camaras, DVR y NVR</li>
+                            <li><i class="bi bi-check2"></i> Configuracion de celulares corporativos</li>
+                            <li><i class="bi bi-check2"></i> Gestion de permisos en archivos compartidos</li>
+                            <li><i class="bi bi-check2"></i> Monitoreo de red y consumo de ancho de banda</li>
+                            <li><i class="bi bi-check2"></i> Copias de seguridad programadas</li>
+                            <li><i class="bi bi-check2"></i> Reporte mensual + reunion</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-cta w-100">Solicitar propuesta</a>
+                    </div>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="col-lg-4">
+                    <div class="service-card">
+                        <div class="service-tier">LOP Enterprise</div>
+                        <p class="service-target"><i class="bi bi-people"></i> Hasta 40 usuarios</p>
+                        <p class="service-pitch">Operaciones que necesitan cobertura ampliada, relevamiento tecnico
+                            completo y atencion prioritaria.</p>
+                        <ul class="service-list">
+                            <li><i class="bi bi-check2"></i> Todo lo del plan Business</li>
+                            <li><i class="bi bi-check2"></i> Visitas presenciales segun demanda</li>
+                            <li><i class="bi bi-check2"></i> Relevamiento tecnico completo de la infraestructura</li>
+                            <li><i class="bi bi-check2"></i> Plan de copias de seguridad y recuperacion</li>
+                            <li><i class="bi bi-check2"></i> Sistema de tickets y seguimiento</li>
+                            <li><i class="bi bi-check2"></i> Auditorias trimestrales</li>
+                            <li><i class="bi bi-check2"></i> Atencion prioritaria</li>
+                            <li><i class="bi bi-check2"></i> Punto de contacto dedicado</li>
+                        </ul>
+                        <a href="#contacto" class="btn btn-outline-primary w-100">Solicitar propuesta</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nota cierre / propuesta a medida -->
+            <p class="services-note text-center mt-4">
+                <i class="bi bi-info-circle"></i>
+                Cada propuesta se ajusta al tamano de tu empresa y a la complejidad de tu infraestructura. Solicitanos
+                una <a href="#contacto">auditoria gratuita</a> y te enviamos cotizacion personalizada en 48 hs.
+            </p>
+
+            <!-- Servicios puntuales -->
+            <div class="extras-block mt-5">
+                <h4 class="text-center mb-2">Servicios puntuales</h4>
+                <p class="text-center text-muted mb-4">Tambien atendemos proyectos one-shot, sin necesidad de contratar
+                    un plan mensual.</p>
+                <div class="row g-3">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="extra-card">
+                            <i class="bi bi-camera-video extra-icon"></i>
+                            <h6>Camaras y videovigilancia</h6>
+                            <small>Instalacion y configuracion de DVR y NVR</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="extra-card">
+                            <i class="bi bi-pc-display extra-icon"></i>
+                            <h6>Instalacion y configuracion</h6>
+                            <small>Equipos, impresoras, perifericos y software</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="extra-card">
+                            <i class="bi bi-arrow-left-right extra-icon"></i>
+                            <h6>Migracion y clonacion de equipos</h6>
+                            <small>Pasamos tu informacion a equipos nuevos sin perder nada</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="extra-card">
+                            <i class="bi bi-phone extra-icon"></i>
+                            <h6>Configuracion de celulares</h6>
+                            <small>Setup, cuentas corporativas y respaldo</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="extra-card">
+                            <i class="bi bi-shield-lock extra-icon"></i>
+                            <h6>Copias de seguridad</h6>
+                            <small>Backups programados de equipos y servidores</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="extra-card">
+                            <i class="bi bi-clipboard-check extra-icon"></i>
+                            <h6>Relevamiento de equipos</h6>
+                            <small>Inventario tecnico completo de tu organizacion</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="extra-card">
+                            <i class="bi bi-tools extra-icon"></i>
+                            <h6>Mantenimiento de software y hardware</h6>
+                            <small>Limpieza, actualizaciones y optimizacion</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="extra-card">
+                            <i class="bi bi-search extra-icon"></i>
+                            <h6>Auditoria de infraestructura</h6>
+                            <small>Diagnostico tecnico + plan de mejora priorizado</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== DESARROLLO WEB ============== -->
+    <section class="section-web" id="desarrollo-web">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <span class="section-eyebrow">Desarrollo Web</span>
+                    <h2 class="section-title">Tambien hacemos tu sitio web.</h2>
+                    <p class="section-subtitle text-start">
+                        Si tu empresa, comercio o emprendimiento necesita presencia online profesional, lo resolvemos.
+                        Diseno, desarrollo y publicacion de landing pages y sitios corporativos. Sin plantillas
+                        genericas, sin demoras, con codigo limpio.
+                    </p>
+                    <ul class="web-features">
+                        <li><i class="bi bi-check-circle-fill"></i> Diseno responsive (desktop, tablet, mobile)</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Optimizado para Google y carga rapida</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Formulario de contacto y WhatsApp</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Hosting y dominio incluidos en la propuesta</li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-cta mt-3">
+                        <i class="bi bi-rocket-takeoff"></i> Solicitar mi sitio
+                    </a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="web-card">
+                                <div class="web-card-icon"><i class="bi bi-window-stack"></i></div>
+                                <h5>Landing Page</h5>
+                                <p>Una pagina enfocada en captar clientes para tu negocio o promocion puntual.</p>
+                                <span class="web-tech">HTML, CSS, JS</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="web-card">
+                                <div class="web-card-icon"><i class="bi bi-globe2"></i></div>
+                                <h5>Sitio Corporativo</h5>
+                                <p>Sitio multipagina con servicios, equipo, contacto y todo lo que tu marca necesita.
+                                </p>
+                                <span class="web-tech">HTML, CSS, JS</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="web-card">
+                                <div class="web-card-icon"><i class="bi bi-wordpress"></i></div>
+                                <h5>WordPress</h5>
+                                <p>Sitio autoadministrable para que cargues tu contenido sin tocar codigo.</p>
+                                <span class="web-tech">WordPress + plugins</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="web-card">
+                                <div class="web-card-icon"><i class="bi bi-arrow-clockwise"></i></div>
+                                <h5>Mantenimiento Web</h5>
+                                <p>Actualizaciones, copias de seguridad, cambios de contenido y soporte continuo.</p>
+                                <span class="web-tech">Plan mensual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== DIFERENCIAL ============== -->
+    <section class="section-diff" id="diferencial">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <span class="section-eyebrow">Por que LOP Solutions</span>
+                    <h2 class="section-title-light">No somos un call center.<br>Somos tu IT de confianza.</h2>
+                    <p class="section-subtitle-light">
+                        Trabajamos con la cercania de un IT interno y la experiencia de un tecnico senior. Sin
+                        pasamanos, sin demoras, sin "abro un ticket y te respondo en 5 dias". Vos hablas con quien
+                        resuelve.
+                    </p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="diff-card">
+                                <i class="bi bi-person-workspace diff-icon"></i>
+                                <h5>Experiencia real, no junior</h5>
+                                <p>Mas de 5 anos resolviendo incidencias L2/L3 en entornos corporativos.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="diff-card">
+                                <i class="bi bi-people-fill diff-icon"></i>
+                                <h5>+150 usuarios gestionados</h5>
+                                <p>Administre infraestructura tecnologica de operaciones reales con varias decenas de
+                                    usuarios.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="diff-card">
+                                <i class="bi bi-robot diff-icon"></i>
+                                <h5>Automatizacion + IA aplicada</h5>
+                                <p>Resolvemos en minutos lo que otros tardan horas, gracias a procesos automatizados
+                                    internos.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="diff-card">
+                                <i class="bi bi-headset diff-icon"></i>
+                                <h5>Atencion directa, sin pasamanos</h5>
+                                <p>El que diagnostica es el que resuelve. Nada de tickets perdidos entre niveles ni call
+                                    centers rotativos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== PROCESO ============== -->
+    <section class="section-process" id="proceso">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-eyebrow">Como trabajamos</span>
+                <h2 class="section-title">De primera reunion a IT estable: 4 pasos</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="step-card">
+                        <div class="step-number">01</div>
+                        <h5>Auditoria gratuita</h5>
+                        <p>45 min de reunion. Revisamos tu infraestructura, riesgos y prioridades.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="step-card">
+                        <div class="step-number">02</div>
+                        <h5>Propuesta clara</h5>
+                        <p>Te enviamos un informe + paquete recomendado. Sin compromiso.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="step-card">
+                        <div class="step-number">03</div>
+                        <h5>Onboarding tecnico</h5>
+                        <p>En 5-7 dias quedamos integrados a tu operacion: accesos, herramientas, ticketing.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="step-card">
+                        <div class="step-number">04</div>
+                        <h5>Soporte continuo</h5>
+                        <p>Atencion diaria, reporte mensual y mejora continua de tu infraestructura.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== SECTORES ============== -->
+    <section class="section-sectors">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-eyebrow">Donde trabajamos</span>
+                <h2 class="section-title">Sectores que ya confiaron en nosotros</h2>
+            </div>
+            <div class="row g-3 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="sector-tag"><i class="bi bi-stars"></i> Salones de eventos</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="sector-tag"><i class="bi bi-truck"></i> Logistica</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="sector-tag"><i class="bi bi-gear-wide-connected"></i> Comisionado industrial</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="sector-tag"><i class="bi bi-bank"></i> Estudios juridicos</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="sector-tag"><i class="bi bi-shop"></i> Comercios y locales</div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="sector-tag"><i class="bi bi-house-heart"></i> Hogares y profesionales</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== FAQ ============== -->
+    <section class="section-faq" id="faq">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-eyebrow">Preguntas frecuentes</span>
+                <h2 class="section-title">Lo que mas nos preguntan</h2>
+            </div>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq1">
+                            ¿Trabajan solo con empresas en CABA / Argentina?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Damos soporte remoto en toda Argentina y Latam. Las visitas presenciales aplican para CABA y
+                            GBA. Para otras zonas coordinamos partners locales o visitas pautadas.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2">
+                            ¿Hay permanencia minima en los planes mensuales?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Solo durante los primeros 3 meses (tiempo necesario para estabilizar la infraestructura).
+                            Despues podes cancelar con 30 dias de aviso, sin costo.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3">
+                            ¿Que pasa fuera del horario 8x5?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Para incidencias fuera del horario habitual ofrecemos atencion bajo demanda con tarifa
+                            preferencial. En el plan Enterprise se prioriza la respuesta. Coordinamos cada caso de forma
+                            directa, sin call centers automatizados.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq4">
+                            ¿Puedo migrar de mi proveedor IT actual sin perder dias de trabajo?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Si. Hacemos onboarding paralelo durante 5-7 dias. Tomamos accesos, documentamos
+                            infraestructura y recien ahi cortamos con el proveedor anterior. Cero downtime para tu
+                            equipo.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq5">
+                            ¿Tambien hacen sitios web y landings?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Si. Disenamos y desarrollamos landing pages, sitios corporativos y sitios en WordPress, con
+                            codigo limpio y diseno responsive. Podes ver mas detalles en la <a
+                                href="#desarrollo-web">seccion de Desarrollo Web</a>. Cotizamos cada proyecto a medida.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== CONTACTO ============== -->
+    <section class="section-contact" id="contacto">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <span class="section-eyebrow">Hablemos</span>
+                    <h2 class="section-title-light">Auditoria IT gratuita de 45 min</h2>
+                    <p class="section-subtitle-light">
+                        Te enviamos un informe con riesgos, oportunidades de mejora y un plan de accion priorizado. Sin
+                        compromiso de contratacion.
+                    </p>
+                    <ul class="contact-info-list">
+                        <li>
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="mailto:lopsolutions@outlook.com">lopsolutions@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-whatsapp"></i>
+                            <a href="https://wa.me/5491133444743" target="_blank" rel="noopener">+54 9 11 3344-4743</a>
+                        </li>
+                        <li><i class="bi bi-geo-alt-fill"></i> CABA, Argentina (remoto en toda LATAM)</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Nombre y apellido *</label>
+                                <input type="text" class="form-control" name="nombre" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Empresa *</label>
+                                <input type="text" class="form-control" name="empresa" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Email corporativo *</label>
+                                <input type="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Telefono</label>
+                                <input type="tel" class="form-control" name="telefono">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Cantidad de usuarios *</label>
+                                <select class="form-select" name="usuarios" required>
+                                    <option value="">Seleccionar...</option>
+                                    <option>1-15</option>
+                                    <option>16-35</option>
+                                    <option>36-70</option>
+                                    <option>+70</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">¿Que necesitas?</label>
+                                <select class="form-select" name="servicio">
+                                    <option value="">Seleccionar...</option>
+                                    <option>Soporte IT mensual</option>
+                                    <option>Migracion Office 365</option>
+                                    <option>Active Directory</option>
+                                    <option>Auditoria IT</option>
+                                    <option>Sitio web / Landing</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Contanos brevemente tu situacion actual</label>
+                                <textarea class="form-control" name="mensaje" rows="4"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-cta btn-lg w-100">
+                                    <i class="bi bi-send-fill"></i> Solicitar auditoria gratuita
+                                </button>
+                            </div>
+                            <div class="col-12">
+                                <div id="formMsg" class="form-msg"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== FOOTER ============== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <img src="assets/img/logo-light.svg" alt="LOP Solutions" class="logo-img logo-footer">
+                    <p class="footer-tag">Soporte IT & Infraestructura para empresas, comercios y hogares</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <small>&copy; <span id="currentYear"></span> LOP Solutions. Todos los derechos reservados.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/5491133444743?text=Hola%20LOP%20Solutions,%20quiero%20una%20auditoria%20IT%20gratuita"
+        class="wa-float" target="_blank" rel="noopener" aria-label="Chat por WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Bootstrap JS Bundle (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- JS custom (archivo separado) -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
