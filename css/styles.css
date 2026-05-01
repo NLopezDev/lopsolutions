@@ -915,50 +915,14 @@ section { padding: 100px 0; }
         margin-bottom: 18px;
     }
 
-    /* --- Proceso (Como trabajamos): solo numero + titulo + 2 por linea --- */
-    #proceso .col-md-6.col-lg-3 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .step-card {
-        padding: 20px 14px;
-        text-align: center;
-    }
-    .step-card p { display: none; }
-    .step-card h5 {
-        font-size: 0.92rem;
-        margin: 0;
-        line-height: 1.25;
-    }
-    .step-number {
-        font-size: 1.8rem;
-        margin-bottom: 6px;
+    /* --- Proceso (Como trabajamos): ocultar seccion completa en mobile --- */
+    .section-process {
+        display: none;
     }
 
-    /* --- Diferencial (Por que LOP): 2 por linea + solo titulo --- */
-    .section-diff .col-md-6 {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .diff-card {
-        padding: 18px 12px;
-        text-align: center;
-    }
-    .diff-card p { display: none; }
-    .diff-card h5 {
-        font-size: 0.88rem;
-        margin: 0;
-        line-height: 1.25;
-    }
-    .diff-icon {
-        font-size: 1.4rem;
-        width: 46px;
-        height: 46px;
-        margin: 0 auto 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 12px;
+    /* --- Diferencial (Por que LOP): ocultar grilla de cards en mobile --- */
+    .section-diff .col-lg-7 {
+        display: none;
     }
 }
 
