@@ -790,6 +790,152 @@ section { padding: 100px 0; }
     .stat-divider { display: none; }
     section { padding: 70px 0; }
 }
+
+/* ============ MOBILE COMPACT MODE (<= 768px) ============ */
+@media (max-width: 767.98px) {
+    section { padding: 56px 0; }
+
+    /* --- Pain section: solo titulo + icono --- */
+    .pain-card {
+        padding: 22px 18px;
+        text-align: center;
+    }
+    .pain-card p { display: none; }
+    .pain-card h5 {
+        font-size: 0.98rem;
+        margin: 0;
+        line-height: 1.3;
+    }
+    .pain-icon {
+        margin-bottom: 12px;
+        width: 52px;
+        height: 52px;
+        font-size: 1.5rem;
+    }
+
+    /* --- Servicios: planes colapsables --- */
+    .service-card {
+        cursor: pointer;
+        position: relative;
+        padding: 20px 56px 20px 22px;
+        transition: padding 0.3s ease;
+    }
+    .service-card .service-pitch,
+    .service-card .service-list,
+    .service-card > a.btn {
+        display: none;
+    }
+    .service-card.is-expanded {
+        padding: 26px 22px 26px 22px;
+    }
+    .service-card.is-expanded .service-pitch,
+    .service-card.is-expanded .service-list {
+        display: block;
+    }
+    .service-card.is-expanded > a.btn {
+        display: inline-block;
+    }
+    .service-card::after {
+        content: "\F282"; /* bootstrap-icons chevron-down */
+        font-family: "bootstrap-icons";
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--color-primary);
+        transition: transform 0.3s ease;
+        font-size: 1.3rem;
+        line-height: 1;
+    }
+    .service-card.is-expanded::after {
+        transform: translateY(-50%) rotate(180deg);
+        top: 30px;
+    }
+    .service-tier { margin-bottom: 4px; font-size: 1.2rem; }
+    .service-target { margin-bottom: 0; padding-right: 0; font-size: 0.9rem; }
+    .service-card--featured { margin-top: 18px; }
+    .featured-badge { font-size: 0.65rem; padding: 5px 14px; }
+    .services-note { font-size: 0.85rem; padding: 0 10px; }
+
+    /* --- Servicios puntuales: 2 por linea + solo titulo --- */
+    .extras-block {
+        padding: 28px 16px;
+        margin-top: 40px;
+    }
+    .extras-block h4 { font-size: 1.15rem; }
+    .extras-block .col-md-6.col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .extra-card {
+        padding: 18px 12px;
+    }
+    .extra-card small { display: none; }
+    .extra-card h6 {
+        font-size: 0.82rem;
+        margin: 0;
+        line-height: 1.25;
+    }
+    .extra-icon {
+        width: 44px;
+        height: 44px;
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    /* --- Desarrollo web: 2 por linea + minimo --- */
+    .section-web .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .web-card {
+        padding: 20px 14px;
+        text-align: center;
+    }
+    .web-card p,
+    .web-card .web-tech {
+        display: none;
+    }
+    .web-card h5 {
+        font-size: 0.9rem;
+        margin: 0;
+        line-height: 1.25;
+    }
+    .web-card-icon {
+        margin: 0 auto 10px;
+        width: 48px;
+        height: 48px;
+        font-size: 1.4rem;
+    }
+    .web-features {
+        margin-bottom: 16px;
+    }
+    .section-web .section-subtitle {
+        font-size: 1rem;
+        margin-bottom: 18px;
+    }
+
+    /* --- Proceso (Como trabajamos): solo numero + titulo + 2 por linea --- */
+    #proceso .col-md-6.col-lg-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .step-card {
+        padding: 20px 14px;
+        text-align: center;
+    }
+    .step-card p { display: none; }
+    .step-card h5 {
+        font-size: 0.92rem;
+        margin: 0;
+        line-height: 1.25;
+    }
+    .step-number {
+        font-size: 1.8rem;
+        margin-bottom: 6px;
+    }
+}
+
 @media (max-width: 575px) {
     .hero-logo { height: 100px; max-width: 280px; }
     .hero-cta { flex-direction: column; }

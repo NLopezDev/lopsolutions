@@ -125,6 +125,27 @@
         });
     }
 
+    // =========== Mobile: planes colapsables (tap para expandir) ===========
+    const mobileMQ = window.matchMedia('(max-width: 767.98px)');
+    const serviceCards = document.querySelectorAll('.service-card');
+
+    serviceCards.forEach(card => {
+        card.addEventListener('click', function (e) {
+            // Solo en mobile
+            if (!mobileMQ.matches) return;
+            // No togglear si tocaron el boton de "Solicitar propuesta"
+            if (e.target.closest('a.btn')) return;
+            card.classList.toggle('is-expanded');
+        });
+    });
+
+    // Si pasa de mobile a desktop, limpio estados expandidos
+    mobileMQ.addEventListener('change', (e) => {
+        if (!e.matches) {
+            serviceCards.forEach(c => c.classList.remove('is-expanded'));
+        }
+    });
+
     // =========== Scroll spy simple para nav links ===========
     const sections = document.querySelectorAll('section[id], header[id]');
     const navLinks = document.querySelectorAll('#navbarNav .nav-link');
